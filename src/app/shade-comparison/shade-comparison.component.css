@@ -1,0 +1,22 @@
+
+
+.container{
+    background: url('https://cdn.pixabay.com/photo/2013/11/28/10/36/road-220058_960_720.jpg');
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.circleBase {
+    border-radius: 50%;
+    background:rgba(0, 0, 0, 30%);
+    flex :auto;
+    border: 1px solid #000;
+    width: 150px;
+    margin: 5px;
+}
+

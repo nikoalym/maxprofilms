@@ -1,0 +1,36 @@
+<div class='table-container'>
+<nz-table #basicTable [nzData]="filmSpecs!" [nzShowPagination]='false' [nzSimple] [nzScroll]="{ x: '1200px', y: '240px' }">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Scratch Resistant Coating</th>
+            <th>Visible Light Transmission</th>
+            <th>IR Rejection</th>
+            <th>Glare Reduction</th>
+            <th>PLY</th>
+            <th>Thickness</th>
+            <th>Visible Light Reflectivity</th>
+            <th>UV Rejection</th>
+            <th>Total Solar Energy Rejection</th>
+            <th>Total Solar Reflected</th>
+            <th>Warranty</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of basicTable.data">
+            <td>{{data.name}}</td>
+            <td>{{data.scratchResistantCoating }}</td>
+            <td>{{data.visibleLightTransmission }}</td>
+            <td>{{data.irRejection}}</td>
+            <td>{{data.glareReduction}}</td>
+            <td>{{data.ply}}</td>
+            <td>{{data.thinckness}}</td>
+            <td>{{data.visibleLightRefclectivity}}</td>
+            <td>{{data.uvRejection}}</td>
+            <td>{{data.solarEnergyRejection}}</td>
+            <td>{{data.solarEnergyReflected}}</td>
+            <td>{{data.warranty}}</td>
+        </tr>
+    </tbody>
+</nz-table>
+</div>
