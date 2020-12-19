@@ -171,6 +171,7 @@ export const films: Film[] = [
   {
     brand: 'Max Pro Films',
     title: 'MCIR MaxCool IR',
+    description: "'MaxCool IR is a nano ceramic window film that provides higher heat rejection and infrared rejection (IR) than standard dyed or metalized window film. MaxCool IR is engineered to keep the car feeling cooler due to a higher rejection of total solar energy and protect the interior from UVA and UVB rays.'",
     vlts: ['80%','70%','50%','40%','35%','20%','15%','5%'],
     features:[],
     variants:[
@@ -283,6 +284,8 @@ export const films: Film[] = [
   {
     brand: 'Max Pro Films',
     title: 'MCPX MaxPro Carbon Xtreme',
+    description:
+      "'MPCX is a color stable, non fading, metal free product that offers high heat rejection and Infrared (IR) rejection to keep you cool and will not interfere with satellite reception.'",
     vlts: ['50%','40%','35%','20%','15%','5%'],
     features:[],
     variants:[
@@ -369,6 +372,8 @@ export const films: Film[] = [
   {
     brand: 'Max Pro Films',
     title: 'MJPHP MaxJet High Performance',
+    description:
+      "'Our high performance line is all about keeping cool and looking cool. Made with a metallized layer, MJPHP rejects and reflects more solar energy, is available in darker VLTs, and has an attractive – and slightly reflective – colored appearance.'",
     vlts: ['35%','20%','15%','5%'],
     features:[],
     variants:[
@@ -425,6 +430,8 @@ export const films: Film[] = [
   {
     brand: 'Max Pro Films',
     title: 'MJP MaxJet Pro',
+    description:
+      "'MaxJet Pro film is made from advanced laminated film that is scratch resistant, non-reflective, and supremely easy to apply and shrink. Color stable dyes give true color and non-metal construction provides enhanced UV protection.'",
     vlts: ['50%','45%','40%','35%','20%','15%','5%'],
     features:[],
     variants:[
@@ -517,6 +524,8 @@ export const films: Film[] = [
   {
     brand: 'Max Pro Films',
     title: 'PRO CP Charcoal Plus',
+    description:
+      "'Maxpro CP film is made from advanced laminated film that is scratch resistant, non-reflective, and supremely easy to apply and shrink. Color stable dyes give true color and non-metal construction provides enhanced UV protection.'",
     vlts: ['65%','50%','45%','38%','33%','18%','5%'],
     features:[],
     variants:[
@@ -621,6 +630,8 @@ export const films: Film[] = [
   {
     brand: 'Max Pro Films',
     title: 'PRO HP Pro High Performance',
+    description:
+      "'Our high performance line is all about keeping cool and looking cool. Made with a metallized layer, HP rejects and reflects more solar energy, is available in darker VLTs, and has an attractive – and slightly reflective – colored appearance.'",
     vlts: ['48%','38%','28%','18%','12%','5%','3%'],
     features:[],
     variants:[
@@ -713,6 +724,8 @@ export const films: Film[] = [
   {
     brand: 'Max Pro Films',
     title: 'XTRA Performance',
+    description:
+      "'Maxpro XP film offers high quality and good protection. With a true charcoal dyed non metal construction this product protects against heat, glare and offers UV protection.'",
     vlts: ['50%','45%','40%','35%','20%','15%','5%'],
     features:[],
     variants:[
@@ -805,6 +818,8 @@ export const films: Film[] = [
   {
     brand: 'Max Pro Films',
     title: 'XTRA PRO Performance',
+    description:
+      "'Maxpro XPP film offers high quality and good protection. With a true charcoal dyed non metal construction this product protects against heat, glare and offers UV protection.'",
     vlts: ['50%','45%','40%','35%','20%','15%','5%'],
     features:[],
     variants:[
