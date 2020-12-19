@@ -1,4 +1,4 @@
-<nz-table #basicTable [nzData]="filmSpecs!" [nzShowPagination]='false' >
+<nz-table #basicTable [nzData]="filmSpecs!" [nzShowPagination]='false' nzSimple [nzScroll]="{x:'1000px',y:'1000px'}" >
     <thead>
         <tr>
             <th nzWidth='79px'>Product</th>
@@ -8,7 +8,6 @@
             <th>Glare Reduction</th>
             <th>PLY</th>
             <th>Thickness</th>
-            <th>Visible Light Reflectivity</th>
             <th>UV Rejection</th>
             <th>Total Solar Energy Rejection</th>
             <th>Total Solar Reflected</th>
@@ -24,7 +23,6 @@
             <td>{{data.glareReduction}}</td>
             <td>{{data.ply}}</td>
             <td>{{data.thinckness}}</td>
-            <td>{{data.visibleLightRefclectivity}}</td>
             <td>{{data.uvRejection}}</td>
             <td>{{data.solarEnergyRejection}}</td>
             <td>{{data.solarEnergyReflected}}</td>

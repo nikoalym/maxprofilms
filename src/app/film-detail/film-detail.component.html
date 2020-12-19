@@ -1,28 +1,28 @@
-<div nz-row [nzGutter]="[10,10]" nzAlign='top' nzJustify='center' class='details'>
+<div nz-row class='details' [nzJustify]='"center"'>
 
-      <div nz-col>
-        <h1 nz-typography>{{film.title}} ™</h1>
-        <p>{{film.description}}</p>
-      </div>
+  <div nz-col [nzXs]='24' [nzMd]='24' >
+    <h1>{{film.title}} ™</h1>
+    <p>{{film.description}}</p>
+  </div>
+  
+  <nz-divider style="border-color: white;color:white" nzText="FEATURES"></nz-divider>
+  <div nz-col [nzXs]='24' [nzMd]='24' class='bg'>
+    <app-features-list [features]='film.features'></app-features-list>
+  </div>
+  
+  <nz-divider style="border-color: white;color:white" nzText="AVAILABLE VLT'S"></nz-divider>
+  <div nz-col [nzXs]='24' [nzMd]='24' class='bg'>
 
-      
-      <div nz-col>
-        <nz-divider style="border-color: white;color:white" nzText="FEATURES"></nz-divider>
-        <app-features-list [features]='film.features'></app-features-list>
-      </div>
+    <app-shade-comparison [shades]='film.vlts'></app-shade-comparison>
+  </div>
 
-      <div nz-col [nzSpan]='24'>
-        <nz-divider style="border-color: white;color:white" nzText="AVAILABLE VLT'S"></nz-divider>
-        <app-shade-comparison [shades]='film.vlts'></app-shade-comparison>
-      </div>
-    
+  <nz-divider style="border-color: white;color:white" nzText="SPECIFICATIONS"></nz-divider>
 
-    <div nz-col >
-      <nz-divider style="border-color: white;color:white" nzText="SPECIFICATIONS"></nz-divider>
-      <app-film-spec [filmSpecs]='film.variants'></app-film-spec>
-    </div>
- 
+  <div nz-col [nzXs]='24' >
+    <app-film-spec [filmSpecs]='film.variants'></app-film-spec>
+  </div>
 
 
- 
+
+
 </div>

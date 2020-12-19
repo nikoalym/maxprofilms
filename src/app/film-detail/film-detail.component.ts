@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { AppService } from '../app.service';
 import { Film } from '../models/Film';
 
@@ -8,16 +9,20 @@ import { Film } from '../models/Film';
   styleUrls: ['./film-detail.component.less'],
 })
 export class FilmDetailComponent implements OnInit {
-  @Input() film: Film;
-  constructor() {
-    this.film = {
-      title: '',
-      features: [],
-      variants: [],
-      brand: '',
-      description: '',
-      vlts: [],
-    };
+  film: Film = {
+    title: '',
+    id: '',
+    features: [],
+    variants: [],
+    brand: '',
+    description: '',
+    vlts: [],
+  };
+  constructor(private route: ActivatedRoute, private service: AppService) {
+    this.route.params.subscribe((val) => {
+      const id = val.id;
+      this.film = this.service.getFilmById(id);
+    });
   }
 
   ngOnInit(): void {}

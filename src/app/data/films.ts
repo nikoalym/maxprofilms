@@ -7,6 +7,7 @@ export const films: Film[] = [
       "'XCL Pro is our latest window film and is a hybrid, multi-layered film offering 1.5 mil 2 ply and 1.5 mil 3 ply for the 5% VLT. XCL Pro has superior longevity over traditional dyed and dyed/metal products, offers low reflectivity and increased IR rejection, and has a proprietary construction that won't interfere with satellite and radio reception.'",
     brand: 'Max Pro Films',
     vlts:['50%','45%','40%','35%','30%'],
+    id:'xclpro',
     features: [
       {
         title: 'Ceramic Particle Technology',
@@ -171,6 +172,7 @@ export const films: Film[] = [
   {
     brand: 'Max Pro Films',
     title: 'MCIR MaxCool IR',
+    id: 'mcir',
     description: "'MaxCool IR is a nano ceramic window film that provides higher heat rejection and infrared rejection (IR) than standard dyed or metalized window film. MaxCool IR is engineered to keep the car feeling cooler due to a higher rejection of total solar energy and protect the interior from UVA and UVB rays.'",
     vlts: ['80%','70%','50%','40%','35%','20%','15%','5%'],
     features:[],
@@ -283,14 +285,15 @@ export const films: Film[] = [
   },
   {
     brand: 'Max Pro Films',
-    title: 'MCPX MaxPro Carbon Xtreme',
+    title: 'MaxPro Carbon Xtreme',
+    id:'mpcx',
     description:
       "'MPCX is a color stable, non fading, metal free product that offers high heat rejection and Infrared (IR) rejection to keep you cool and will not interfere with satellite reception.'",
     vlts: ['50%','40%','35%','20%','15%','5%'],
     features:[],
     variants:[
       {
-        name:'MCPX MaxPro Carbon Xtreme 50%',
+        name:'MaxPro Carbon Xtreme 50%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '50%',
         glareReduction: '44%',
@@ -303,7 +306,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MCPX MaxPro Carbon Xtreme 40%',
+        name:'MaxPro Carbon Xtreme 40%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '40%',
         glareReduction: '50%',
@@ -316,7 +319,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MCPX MaxPro Carbon Xtreme 35%',
+        name:'MaxPro Carbon Xtreme 35%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '20%',
         glareReduction: '68%',
@@ -329,7 +332,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MCPX MaxPro Carbon Xtreme 20%',
+        name:'MaxPro Carbon Xtreme 20%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '20%',
         glareReduction: '68%',
@@ -342,7 +345,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MCPX MaxPro Carbon Xtreme 15%',
+        name:'MaxPro Carbon Xtreme 15%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '15%',
         glareReduction: '84%',
@@ -355,7 +358,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MCPX MaxPro Carbon Xtreme 5%',
+        name:'MaxPro Carbon Xtreme 5%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '5%',
         glareReduction: '93%',
@@ -371,14 +374,15 @@ export const films: Film[] = [
   },
   {
     brand: 'Max Pro Films',
-    title: 'MJPHP MaxJet High Performance',
+    title: 'MaxJet High Performance',
+    id: 'mjhp',
     description:
-      "'Our high performance line is all about keeping cool and looking cool. Made with a metallized layer, MJPHP rejects and reflects more solar energy, is available in darker VLTs, and has an attractive – and slightly reflective – colored appearance.'",
+      "'Our high performance line is all about keeping cool and looking cool. Made with a metallized layer, rejects and reflects more solar energy, is available in darker VLTs, and has an attractive – and slightly reflective – colored appearance.'",
     vlts: ['35%','20%','15%','5%'],
     features:[],
     variants:[
       {
-        name:'MJPHP MaxJet High Performance 35%',
+        name:'MaxJet High Performance 35%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '35%',
         glareReduction: '57%',
@@ -390,7 +394,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MJPHP MaxJet High Performance 20%',
+        name:'MaxJet High Performance 20%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '20%',
         glareReduction: '76%',
@@ -402,7 +406,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MJPHP MaxJet High Performance 15%',
+        name:'MaxJet High Performance 15%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '15%',
         glareReduction: '82%',
@@ -414,7 +418,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MJPHP MaxJet High Performance 5%',
+        name:'MaxJet High Performance 5%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '5%',
         glareReduction: '95%',
@@ -429,14 +433,15 @@ export const films: Film[] = [
   },
   {
     brand: 'Max Pro Films',
-    title: 'MJP MaxJet Pro',
+    title: 'MaxJet Pro',
+    id: 'mjp',
     description:
       "'MaxJet Pro film is made from advanced laminated film that is scratch resistant, non-reflective, and supremely easy to apply and shrink. Color stable dyes give true color and non-metal construction provides enhanced UV protection.'",
     vlts: ['50%','45%','40%','35%','20%','15%','5%'],
     features:[],
     variants:[
       {
-        name:'MJP MaxJet Pro 50%',
+        name:'MaxJet Pro 50%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '50%',
         glareReduction: '45%',
@@ -448,7 +453,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MJP MaxJet Pro 45%',
+        name:'MaxJet Pro 45%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '45%',
         glareReduction: '50%',
@@ -460,7 +465,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MJP MaxJet Pro  40%',
+        name:'MaxJet Pro  40%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '40%',
         glareReduction: '52%',
@@ -472,7 +477,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MJP MaxJet Pro 35%',
+        name:'MaxJet Pro 35%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '35%',
         glareReduction: '55%',
@@ -484,7 +489,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MJP MaxJet Pro 20%',
+        name:'MaxJet Pro 20%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '20%',
         glareReduction: '76%',
@@ -496,7 +501,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MJP MaxJet Pro 15%',
+        name:'MaxJet Pro 15%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '15%',
         glareReduction: '83%',
@@ -508,7 +513,7 @@ export const films: Film[] = [
         warranty: 'Lifetime'
       },
       {
-        name:'MJP MaxJet Pro 5%',
+        name:'MaxJet Pro 5%',
         scratchResistantCoating: 'Yes',
         visibleLightTransmission: '5%',
         glareReduction: '92%',
@@ -524,6 +529,7 @@ export const films: Film[] = [
   {
     brand: 'Max Pro Films',
     title: 'PRO CP Charcoal Plus',
+    id:'procp',
     description:
       "'Maxpro CP film is made from advanced laminated film that is scratch resistant, non-reflective, and supremely easy to apply and shrink. Color stable dyes give true color and non-metal construction provides enhanced UV protection.'",
     vlts: ['65%','50%','45%','38%','33%','18%','5%'],
@@ -630,6 +636,7 @@ export const films: Film[] = [
   {
     brand: 'Max Pro Films',
     title: 'PRO HP Pro High Performance',
+    id: 'prohp',
     description:
       "'Our high performance line is all about keeping cool and looking cool. Made with a metallized layer, HP rejects and reflects more solar energy, is available in darker VLTs, and has an attractive – and slightly reflective – colored appearance.'",
     vlts: ['48%','38%','28%','18%','12%','5%','3%'],
@@ -724,6 +731,7 @@ export const films: Film[] = [
   {
     brand: 'Max Pro Films',
     title: 'XTRA Performance',
+    id:'xp',
     description:
       "'Maxpro XP film offers high quality and good protection. With a true charcoal dyed non metal construction this product protects against heat, glare and offers UV protection.'",
     vlts: ['50%','45%','40%','35%','20%','15%','5%'],
@@ -818,6 +826,7 @@ export const films: Film[] = [
   {
     brand: 'Max Pro Films',
     title: 'XTRA PRO Performance',
+    id:'xpp',
     description:
       "'Maxpro XPP film offers high quality and good protection. With a true charcoal dyed non metal construction this product protects against heat, glare and offers UV protection.'",
     vlts: ['50%','45%','40%','35%','20%','15%','5%'],

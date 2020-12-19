@@ -22,6 +22,7 @@ export interface Feature {
 export interface Film {
   brand: string;
   title: string;
+  id: string;
   vlts: string[];
   description?: string;
   variants: FilmVariant[];

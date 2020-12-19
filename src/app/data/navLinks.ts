@@ -1,0 +1,39 @@
+export const navLinks = [
+{
+    path:'xclpro',
+    imgSrc:'https://maxprofilms.com/wp-content/uploads/2019/10/XCL-PRO-LOGO-color-300x107.png'
+},
+{
+    path:'mcir',
+    imgSrc:'https://maxprofilms.com/wp-content/uploads/2016/08/Maxcool-Logo.png'
+},
+{
+    path:'mpcx',
+    imgSrc:'https://maxprofilms.com/wp-content/uploads/2016/08/maxpro-carbon-extreme-logo.png'
+},
+{
+    path:'procp',
+    imgSrc:'https://maxprofilms.com/wp-content/uploads/2016/08/maxpro-pro-cp-logo.png'
+},
+{
+    path:'prohp',
+    imgSrc:'https://maxprofilms.com/wp-content/uploads/2016/08/maxpro-pro-hp-logo.png'
+},
+{
+    path:'mjhp',
+    imgSrc:'https://maxprofilms.com/wp-content/uploads/2016/08/maxjet-logo-maxpro.png'
+},
+{
+    path:'mjp',
+    imgSrc:'https://maxprofilms.com/wp-content/uploads/2016/08/profilms-maxjet-high-performance-logo.png'
+},
+{
+    path:'xp',
+    imgSrc:'https://maxprofilms.com/wp-content/uploads/2016/08/xp-Maxpro-Films-Italic.png'
+},
+{
+    path:'xpp',
+    imgSrc:'https://maxprofilms.com/wp-content/uploads/2016/08/xpp-maxpro-films-logo-italic.png'
+},
+
+]

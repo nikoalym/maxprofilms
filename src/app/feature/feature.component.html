@@ -1,5 +1,5 @@
-<div>
-    <i nz-icon [nzType]="feature!.icon" nzTheme="outline" ></i>
-    <h3>{{feature?.title}}</h3>
-    <p>{{feature?.description}}</p>
+<div nz-row>
+    <div nz-col [nzXs]='24'><i nz-icon [nzType]="feature!.icon" nzTheme="outline" nzSpan='2'></i></div>
+    <div nz-col [nzXs]='24'><h3>{{feature?.title}}</h3></div>
+    <div nz-col [nzXs]='24'><p>{{feature?.description}}</p></div>
 </div>
