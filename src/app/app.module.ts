@@ -28,6 +28,7 @@ import { NzListModule } from 'ng-zorro-antd/list';
 
 import { FilmSpecComponent } from './film-spec/film-spec.component';
 import { ShadeComparisonComponent } from './shade-comparison/shade-comparison.component';
+import { FeaturesListComponent } from './features-list/features-list.component';
 
 registerLocaleData(el);
 
@@ -39,7 +40,8 @@ registerLocaleData(el);
     SidenavListComponent,
     FeatureComponent,
     FilmSpecComponent,
-    ShadeComparisonComponent
+    ShadeComparisonComponent,
+    FeaturesListComponent
   ],
   imports: [
     BrowserModule,

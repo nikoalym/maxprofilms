@@ -6,7 +6,7 @@ export const films: Film[] = [
     description:
       "'XCL Pro is our latest window film and is a hybrid, multi-layered film offering 1.5 mil 2 ply and 1.5 mil 3 ply for the 5% VLT. XCL Pro has superior longevity over traditional dyed and dyed/metal products, offers low reflectivity and increased IR rejection, and has a proprietary construction that won't interfere with satellite and radio reception.'",
     brand: 'Max Pro Films',
-    vlts:['50','45','40','35','30'],
+    vlts:['50%','45%','40%','35%','30%'],
     features: [
       {
         title: 'Ceramic Particle Technology',

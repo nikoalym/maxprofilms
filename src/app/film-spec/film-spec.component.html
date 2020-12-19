@@ -1,9 +1,8 @@
-<div class='table-container'>
-<nz-table #basicTable [nzData]="filmSpecs!" [nzShowPagination]='false' [nzSimple] [nzScroll]="{ x: '1200px', y: '240px' }">
+<nz-table #basicTable [nzData]="filmSpecs!" [nzShowPagination]='false' >
     <thead>
         <tr>
-            <th>Product</th>
-            <th>Scratch Resistant Coating</th>
+            <th nzWidth='79px'>Product</th>
+            <th nzAlign='center'>Scratch Resistant Coating</th>
             <th>Visible Light Transmission</th>
             <th>IR Rejection</th>
             <th>Glare Reduction</th>
@@ -19,7 +18,7 @@
     <tbody>
         <tr *ngFor="let data of basicTable.data">
             <td>{{data.name}}</td>
-            <td>{{data.scratchResistantCoating }}</td>
+            <td nzAlign='center'>{{data.scratchResistantCoating }}</td>
             <td>{{data.visibleLightTransmission }}</td>
             <td>{{data.irRejection}}</td>
             <td>{{data.glareReduction}}</td>
@@ -33,4 +32,3 @@
         </tr>
     </tbody>
 </nz-table>
-</div>

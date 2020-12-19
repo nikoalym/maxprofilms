@@ -1,9 +1,9 @@
-<div class='container'>
-
-
-
-<div class="circleBase" *ngFor='let shade of shades;'>
-    
-</div>
+<div nz-row class='container' [nzJustify]='"center"'>
+    <div class='circleBase'
+    nz-col [nzXs]="{ span:9}" [nzLg]='{span:4}' [nzXl]='{span:4}' *ngFor='let shade of shades;' [style.background]='rgba(shade)'>
+        <div class='shade'>
+            {{shade}}
+        </div>
+    </div>
 
 </div>

@@ -1,25 +1,28 @@
-<div nz-row [nzGutter]='20' nzAlign='middle' nzJustify='center'>
-  <div nz-col  [nzXs]="{ span: 24}" [nzMd]="{ span: 15}" [nzXl]="{ span: 17}" >
-    <div class='details'>
-      <h1 nz-typography >
-        {{film.title}} ™</h1>
-      <p>{{film.description}}</p>
+<div nz-row [nzGutter]="[10,10]" nzAlign='top' nzJustify='center' class='details'>
 
-      <nz-divider style="border-color: white;color:white" nzText="FEATURES"></nz-divider>
-
-      <div nz-row [nzGutter]="20">
-        <div nz-col *ngFor="let feature of film?.features" [nzSpan]="6" [nzXs]="{ span:24}" [nzMd]="{ span:12}">
-          <app-feature [feature]='feature'></app-feature>
-        </div>
+      <div nz-col>
+        <h1 nz-typography>{{film.title}} ™</h1>
+        <p>{{film.description}}</p>
       </div>
 
-      <nz-divider style="border-color: white;color:white" nzText="AVAILABLE VLT'S"></nz-divider>
- 
-      <app-shade-comparison [shades]='film.vlts'></app-shade-comparison>
-    </div>
-  </div>
+      
+      <div nz-col>
+        <nz-divider style="border-color: white;color:white" nzText="FEATURES"></nz-divider>
+        <app-features-list [features]='film.features'></app-features-list>
+      </div>
 
-  <div nz-col [nzXl]="{ span: 17}">
-    <app-film-spec [filmSpecs]='film.variants'></app-film-spec>
-  </div>
+      <div nz-col [nzSpan]='24'>
+        <nz-divider style="border-color: white;color:white" nzText="AVAILABLE VLT'S"></nz-divider>
+        <app-shade-comparison [shades]='film.vlts'></app-shade-comparison>
+      </div>
+    
+
+    <div nz-col >
+      <nz-divider style="border-color: white;color:white" nzText="SPECIFICATIONS"></nz-divider>
+      <app-film-spec [filmSpecs]='film.variants'></app-film-spec>
+    </div>
+ 
+
+
+ 
 </div>
