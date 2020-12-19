@@ -2,7 +2,7 @@ export interface FilmVariant {
   name?: string;
   scratchResistantCoating: string;
   visibleLightTransmission: string;
-  irRejection: string;
+  irRejection?: string;
   glareReduction: string;
   ply: string;
   thinckness: string;
